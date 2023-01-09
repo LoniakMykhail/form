@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#" method="post">
+    <div>
+        <p>Ім’я</p>
+        <input tabindex="1" type="text" name="name">
+    </div>
+    <div>
+        <p>Пароль</p>
+        <input tabindex="2" type="password" name="namepass">
+    </div>
+    <div>
+        <p>Телефон</p>
+        <input tabindex="3" type="tel" name="tel">
+    </div>
+    <div>
+        <p>Стать</p>
+        <div><input tabindex="4" type="radio" name="gender" value="man" checked>Чоловіча</div>
+        <div><input tabindex="4" type="radio" name="gender" value="woomen">Жіноча</div>
+    </div>
+    <div>
+        <p>Майно</p>
+        <div><input tabindex="5" type="radio" name="property" value="bike" checked>Велесепед</div>
+        <div><input tabindex="6" type="radio" name="property" value="car">Машина</div>
+        <div><input tabindex="7" type="radio" name="property" value="house" disabled>Дім</div>
+    </div>
+    
+    <div>
+        <p>Додаткова інформація</p>
+        <textarea tabindex="8" name="addInfo"></textarea>
+    </div>
+    <div>
+        <p>Прикріпити фото</p>
+        <div><input tabindex="9" type="file" name="file"></div>
+    </div>
+    
+    <div>
+        <p>Улюблений колір</p>
+        <select tabindex="10" name="color">
+            <option value="red">Червоний</option>
+            <option value="Green">Зелений</option>
+            <option value="yellow" selected>Жовтий</option>
+        </select>
+    </div>
+        
+    <div>
+        <p>Дія</p>
+        <button tabindex="11"
+        type="submit">Надіслати</button>
+        <button tabindex="12"
+            type="reset">Очистити</button>
+    </div>
+</form>
+</body>
+
+</html>
